@@ -60,16 +60,12 @@ body {
     -o-transition: cubic-bezier(0.68, -0.55, 0.27, 01.55) 320ms;
     transition: cubic-bezier(0.68, -0.55, 0.27, 01.55) 320ms;
     /* cursor: pointer; */
-    img{
-        max-width: 100%;
-        height: auto;
-        transition: ease-in-out 600ms;
-    }
+    
 }
 
-.body_post:hover{
+/* .body_post:hover{
         height: 50%;
-}
+} */
 
 img:hover{
     transform: translateY(-10px) translateX(-5px) scale(1.05);
