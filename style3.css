@@ -1,0 +1,28 @@
+body{
+    background: #232323;
+}
+
+.flip-card{
+    background-color: transparent;
+    border: 1px solid red;
+    height: 400px;
+    width: 300px;
+    perspective: 1000px;
+}
+
+.inner{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .inner{
+    transform: rotateY(180deg);
+}
+
+.front, .card-back{
+    position: absolute;
+}
